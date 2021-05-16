@@ -1,0 +1,26 @@
+.flex-spaced {
+  display: flex;
+  justify-content: space-between;
+}
+
+fieldset {
+  padding: 16px;
+  font-size: 18px;
+}
+
+table {
+  margin-top: 16px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
